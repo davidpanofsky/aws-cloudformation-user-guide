@@ -89,7 +89,7 @@ Specifies all update actions\. The asterisk is a wild card that represents all u
 The following example shows how to specify just the replace and delete actions:  
 
 ```
-"Action" : ["Update:Replace", "Update:Delete"]
+"Action" : ["Update:Replace", "Update:Delete"]
 ```
 To allow all update actions except for one, use `NotAction`\. For example, to allow all update actions except for `Update:Delete`, use `NotAction`, as shown in this example:  
 
